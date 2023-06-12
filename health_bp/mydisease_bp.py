@@ -501,7 +501,7 @@ def disease():
                     avg_height=avg_height,avg_BMI=avg_BMI,avg_weight=avg_weight, bmi=bmi,bmi_category=bmi_category,percentile=percentile,bmi_list=M_W_BMI,
                     waist_list=waist_list,waist_division=waist_division,avg_waist=avg_waist,eye_left_list=eye_left,eye_right_list=eye_right,avg_eye_left=avg_eye_left,
                     avg_eye_right=avg_eye_right,sound_left_list=sound_left,sound_right_list=sound_right,avg_sound_left=avg_sound_left,avg_sound_right=avg_sound_right
-                    , weather=get_weather(health_bp2))
+                    , weather=get_weather(health_bp2), waist=waist, weight=weight, eye_l=eye_l, eye_R=eye_R)
         else:
             flash('로그인 후 이용해주세요.')
             return redirect('/')
